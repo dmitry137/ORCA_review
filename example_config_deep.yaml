@@ -1,0 +1,11 @@
+input_file: "/mnt/localssd/Data_nemo/Meshes_domains/Coordinates/Global/ORCA_R36_coord_new.nc"
+output_path: "/mnt/localssd/Data_nemo/Meshes_domains/Coordinates/Regional/arct_cutorca36_coord.nc"
+regions:
+  - name: "pacific"
+    y_range: [7550, -2]
+    x_range: [1500, 5900]
+    is_pacific: true
+  - name: "atlantic"
+    y_range: [7350, -1]
+    x_range: "auto"
+    is_pacific: false
